@@ -15,3 +15,11 @@ Docker Compose: `https://docs.docker.com/compose/install/`
 
 **Note:** To run `docker` commands as a non-root user, add the *user* to the
 *docker* group `sudo usermod -aG docker <username>`
+
+
+### 3. Configure Docker Compose
+
+Compose file version reference: `https://docs.docker.com/compose/compose-file/`
+
+- Create `docker-compose.yml`
+- Build and verify: `docker-compose build`
