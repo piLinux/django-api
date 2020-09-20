@@ -23,3 +23,8 @@ Compose file version reference: `https://docs.docker.com/compose/compose-file/`
 
 - Create `docker-compose.yml`
 - Build and verify: `docker-compose build`
+
+
+### 4. Create Django Project
+
+`docker-compose run app sh -c "django-admin.py startproject app ."`
