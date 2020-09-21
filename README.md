@@ -32,7 +32,10 @@ Compose file version reference: `https://docs.docker.com/compose/compose-file/`
 
 ### 5. Unit Testing
 
-- Name of a test file must start with `tests` keyword,
+- Name of a test file must start with `tests` strings,
 example: `tests.py`
-- Name of a test function must start with `test`,
+- Name of a test function must start with `test` strings,
 example: `def test_add_numbers(self):`
+
+Command to run tests in Docker:
+`docker-compose run app sh -c "python manage.py test && flake8"`
