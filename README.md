@@ -28,3 +28,11 @@ Compose file version reference: `https://docs.docker.com/compose/compose-file/`
 ### 4. Create Django Project
 
 `docker-compose run app sh -c "django-admin.py startproject app ."`
+
+
+### 5. Unit Testing
+
+- Name of a test file must start with `tests` keyword,
+example: `tests.py`
+- Name of a test function must start with `test`,
+example: `def test_add_numbers(self):`
