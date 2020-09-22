@@ -39,3 +39,10 @@ example: `def test_add_numbers(self):`
 
 Command to run tests in Docker:
 `docker-compose run app sh -c "python manage.py test && flake8"`
+
+
+### Migrations
+
+```
+docker-compose run app sh -c "python manage.py makemigrations core"
+```
